@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid-container {
+    display: grid;
+    background: lightblue;
+    padding: 1rem;
+
+}
+
+.grid-items {
+    border: 1px solid white;
+}
