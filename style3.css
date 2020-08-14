@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    background: lightblue;
+    padding: 1em;
+}
+
+.grid1,
+.grid2 {
+    grid-column-end: span 2;
+    grid-row-start: 1;
+} 
+.grid1 {
+    grid-column-start: 1;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+}
+.grid2 {
+    grid-column-start: 2;
+}
+
+
+
+.grid-items {
+    border: 1px solid white;
+} 
