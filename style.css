@@ -3,9 +3,10 @@ body {
     padding: 0;
 }
 
-
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100px);
     background: lightblue;
     padding: 1rem;
 
@@ -13,4 +14,4 @@ body {
 
 .grid-items {
     border: 1px solid white;
-}
+} 
